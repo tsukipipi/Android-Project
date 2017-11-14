@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.win.connect.MainActivity"
+    android:background="#dd000000"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call"
+        android:textSize="20sp"
+        android:background="@drawable/roundbutton"/>
+
+    <Button
+        android:id="@+id/btn_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="net"
+        android:textSize="20sp"
+        android:layout_below="@+id/btn_call"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/roundbutton"/>
+
+</RelativeLayout>
