@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.win.edgeanalysis.MainActivity">
+
+    <item
+        android:id="@+id/item_edge_detection"
+        android:orderInCategory="1"
+        android:title="检测边缘"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_line_detection"
+        android:orderInCategory="2"
+        android:title="检测直线"
+        app:showAsAction="never" />
+
+</menu>
