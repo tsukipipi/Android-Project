@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.win.daily.AddFriend">
+
+    <TextView
+        android:id="@+id/tv_titleAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="朋友基本信息"
+        android:textSize="30sp"
+        android:textColor="#8fb4cc"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_titleAdd"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_tv"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_friendName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Name"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_friendSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sex"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_friendBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Birthday"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_friendPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Phone"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_friendMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Message"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_friendName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textColor="#8fb4cc"
+                android:background="@null"/>
+
+            <EditText
+                android:id="@+id/et_friendSex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textColor="#8fb4cc"
+                android:background="@null"/>
+
+            <EditText
+                android:id="@+id/et_friendBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textColor="#8fb4cc"
+                android:hint="year/month/day"
+                android:background="@null"/>
+
+            <EditText
+                android:id="@+id/et_friendPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:textColor="#8fb4cc"
+                android:background="@null"/>
+
+            <EditText
+                android:id="@+id/et_friendMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@null"
+                android:textColor="#8fb4cc"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_message"
+        android:layout_margin="20dp"
+        android:text="确定"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#8fb4cc"/>
+
+</RelativeLayout>
